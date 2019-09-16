@@ -33,6 +33,7 @@
 			.addClass('scrolly')
 			.on('click', function(e) {
 
+				// console.log('registering click');
 				var $this = $(this);
 
 				// External link? Bail.
