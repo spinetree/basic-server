@@ -1,16 +1,23 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19pt;
+	font-family: 'Noto Serif', serif;
+	font-size: 12pt;
 	font-weight: 300;
 	line-height: 1.75em;
 }
 
 h1,
 h2,
-h3,
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #666;
+	line-height: 1.5em;
+}
+
 h4,
 h5,
 h6 {
+	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	color: #666;
 	line-height: 1.5em;
@@ -50,6 +57,12 @@ h2.alt strong {
 
 h3 {
 	font-size: 1.5em;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 1em;
+	font-style: italic;
 }
 
 strong,
@@ -98,3 +111,5 @@ sup {
 	top: -0.5em;
 	font-size: 0.8em;
 }
+
+p {text-align:left;}
